@@ -1,0 +1,1 @@
+# skola-stranka-sport
