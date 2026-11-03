@@ -5,15 +5,15 @@ Rozbaľ ZIP a otvor index.html v prehliadači. Texty, menu a lokálne fotografie
 
 ## Nahratie na GitHub Pages
 1. Vytvor na GitHube repozitár.
-2. Nahraj do jeho koreňa obsah tohto priečinka: index.html, ostatné HTML stránky, styles.css, app.js, assets a .nojekyll. Nenahrávaj iba ZIP ani nadradený priečinok.
+2. Nahraj do jeho koreňa obsah tohto priečinka: index.html, ostatné HTML stránky, styles-v3.css, app-v3.js, assets a .nojekyll. Nenahrávaj iba ZIP ani nadradený priečinok.
 3. V Settings → Pages nastav Deploy from a branch, vetvu main a priečinok / (root). Ulož.
 4. Po dokončení nasadenia otvor adresu zobrazenú v Pages. Relatívne odkazy podporujú aj projektový web pod /nazov-repozitara/.
 
 ## Úpravy
 - Text každej stránky je priamo v jej HTML súbore.
-- Farby sú na začiatku styles.css v :root.
+- Farby sú na začiatku styles-v3.css v :root.
 - Menu je v každom HTML súbore; zmenu názvu vykonaj na všetkých piatich stránkach.
-- Video: v o-sporte.html zmeň data-video a priamy odkaz; aktualizuj aj titulok v app.js a zdroj na stránke Odkazy.
+- Video: v o-sporte.html zmeň data-video a priamy odkaz; aktualizuj aj titulok v app-v3.js a zdroj na stránke Odkazy.
 - Osobné údaje autora neboli doplnené ani vymyslené.
 
 ## Licencie
@@ -21,3 +21,6 @@ Autori, originálne odkazy a presné licencie všetkých fotografií sú na str�
 
 Video sa nesťahuje ani nešíri v ZIP: načíta sa odporúčané portálom ActiveSG až po kliknutí. Pri obmedzení YouTube je pod prehrávačom priamy odkaz.
 
+
+## Aktualizácia v3
+Nahraj celý obsah ZIP vrátane app-v3.js, styles-v3.css a všetkých nových fotografií v assets. Nové názvy zabraňujú používaniu starej verzie skriptov z vyrovnávacej pamäte. Galéria obsahuje 10 rôznych fotografií.
