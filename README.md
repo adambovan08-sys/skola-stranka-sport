@@ -5,15 +5,15 @@ Rozbaľ ZIP a otvor index.html v prehliadači. Texty, menu a lokálne fotografie
 
 ## Nahratie na GitHub Pages
 1. Vytvor na GitHube repozitár.
-2. Nahraj do jeho koreňa obsah tohto priečinka: index.html, ostatné HTML stránky, styles-v4.css, app-v4.js, assets a .nojekyll. Nenahrávaj iba ZIP ani nadradený priečinok.
+2. Nahraj do jeho koreňa obsah tohto priečinka: index.html, ostatné HTML stránky, styles-v5.css, app-v5.js, assets a .nojekyll. Nenahrávaj iba ZIP ani nadradený priečinok.
 3. V Settings → Pages nastav Deploy from a branch, vetvu main a priečinok / (root). Ulož.
 4. Po dokončení nasadenia otvor adresu zobrazenú v Pages. Relatívne odkazy podporujú aj projektový web pod /nazov-repozitara/.
 
 ## Úpravy
 - Text každej stránky je priamo v jej HTML súbore.
-- Farby sú na začiatku styles-v4.css v :root.
+- Farby sú na začiatku styles-v5.css v :root.
 - Menu je v každom HTML súbore; zmenu názvu vykonaj na všetkých piatich stránkach.
-- Video: v o-sporte.html zmeň data-video a priamy odkaz; aktualizuj aj titulok v app-v4.js a zdroj na stránke Odkazy.
+- Video: v o-sporte.html zmeň data-video a priamy odkaz; aktualizuj aj titulok v app-v5.js a zdroj na stránke Odkazy.
 - Osobné údaje autora neboli doplnené ani vymyslené.
 
 ## Licencie
@@ -23,7 +23,10 @@ Video sa nesťahuje ani nešíri v ZIP: načíta sa odporúčané portálom Acti
 
 
 ## Aktualizácia v3
-Nahraj celý obsah ZIP vrátane app-v4.js, styles-v4.css a všetkých nových fotografií v assets. Nové názvy zabraňujú používaniu starej verzie skriptov z vyrovnávacej pamäte. Galéria obsahuje 12 rôznych fotografií.
+Nahraj celý obsah ZIP vrátane app-v5.js, styles-v5.css a všetkých nových fotografií v assets. Nové názvy zabraňujú používaniu starej verzie skriptov z vyrovnávacej pamäte. Galéria obsahuje 12 rôznych fotografií.
 
 ## Rozbaľovacie menu
 Na počítači prejdi kurzorom na O športe alebo Zaujímavosti. Na mobile ťukni na šípku vedľa názvu. Názov sekcie stále vedie na jej hlavnú stránku. Menu sa dá ovládať klávesnicou: Tab, Enter, šípka nadol a Escape.
+
+## Verzia 5
+Menu je jednotné na všetkých 11 stránkach. Každá tematická sekcia má 3 podstránky. Odkazy obsahujú ?v=5, aby návrat na Home nenačítal staré HTML z vyrovnávacej pamäte. Nahraj aj nový index.html.
